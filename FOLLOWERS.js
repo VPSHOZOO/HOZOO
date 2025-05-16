@@ -1,7 +1,7 @@
-const TelegramBot = require('8109698197:AAFksLBRURP3t5AcOLEJs3MCzwOLU2wzV9M');
+const TelegramBot = require('node-telegram-bot-api');
 const axios = require('axios');
 const moment = require('moment');
-const token = 'YOUR_TELEGRAM_BOT_TOKEN';
+const token = '8109698197:AAFksLBRURP3t5AcOLEJs3MCzwOLU2wzV9M';
 const bot = new TelegramBot(token, { polling: true });
 const botInfo = `
 ┏━━ıllıllı◌LORDHOZOO◌ıllıllı━━╼
